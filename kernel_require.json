@@ -1,0 +1,948 @@
+[
+    {
+        "name": "ruby:total(0)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666515452,
+        "args": {
+            "line": "0",
+            "ractor": "0"
+        }
+    },
+    {
+        "name": "ruby:total(0)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666618358,
+        "args": {
+            "line": "0",
+            "ractor": "0"
+        }
+    },
+    {
+        "name": "../ruby/load.c:rb_get_expanded_load_path(0)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520353,
+        "args": {
+            "line": "110",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/load.c:rb_construct_expanded_load_path(1)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520353,
+        "args": {
+            "line": "60",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/load.c:rb_construct_expanded_load_path(1)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520372,
+        "args": {
+            "line": "104",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/load.c:rb_get_expanded_load_path(0)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520372,
+        "args": {
+            "line": "151",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(2)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520539,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(2)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520539,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(3)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520540,
+        "args": {
+            "line": "2407",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(3)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520550,
+        "args": {
+            "line": "2412",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(4)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520773,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(4)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520774,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(5)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520774,
+        "args": {
+            "line": "2407",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(5)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520786,
+        "args": {
+            "line": "2412",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(6)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520908,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(6)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520909,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(7)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520910,
+        "args": {
+            "line": "2407",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(7)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520916,
+        "args": {
+            "line": "2412",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(8)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520945,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(8)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520945,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(9)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520945,
+        "args": {
+            "line": "2407",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(9)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666520947,
+        "args": {
+            "line": "2412",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(10)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521019,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(10)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521019,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(11)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521020,
+        "args": {
+            "line": "2407",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(11)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521022,
+        "args": {
+            "line": "2412",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(12)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521123,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(12)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521123,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(13)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521124,
+        "args": {
+            "line": "2407",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(13)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521129,
+        "args": {
+            "line": "2412",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(14)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521237,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(14)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521237,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(15)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521237,
+        "args": {
+            "line": "2407",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(15)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521242,
+        "args": {
+            "line": "2412",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(16)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521281,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(16)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521281,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(17)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521281,
+        "args": {
+            "line": "2407",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(17)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521283,
+        "args": {
+            "line": "2412",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(18)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521300,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(18)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521300,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(19)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521300,
+        "args": {
+            "line": "2407",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(19)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521302,
+        "args": {
+            "line": "2412",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(20)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521342,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(20)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521342,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(21)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521342,
+        "args": {
+            "line": "2407",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(21)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521344,
+        "args": {
+            "line": "2412",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(22)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521402,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(22)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521402,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(23)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521403,
+        "args": {
+            "line": "2407",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(23)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521405,
+        "args": {
+            "line": "2412",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(24)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521473,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(24)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521473,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(25)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521473,
+        "args": {
+            "line": "2407",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(25)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521475,
+        "args": {
+            "line": "2412",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(26)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521489,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(26)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521489,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(27)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521489,
+        "args": {
+            "line": "2407",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(27)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521490,
+        "args": {
+            "line": "2412",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(28)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521516,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(28)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521516,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(29)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521517,
+        "args": {
+            "line": "2407",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(29)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521520,
+        "args": {
+            "line": "2412",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(30)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521553,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(30)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521553,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(31)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521572,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(31)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521573,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/load.c:rb_f_require(32)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521582,
+        "args": {
+            "line": "888",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/load.c:require_internal(33)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521583,
+        "args": {
+            "line": "1094",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/load.c:search_required(34)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521583,
+        "args": {
+            "line": "918",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/load.c:rb_get_expanded_load_path(35)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521585,
+        "args": {
+            "line": "110",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/load.c:rb_construct_expanded_load_path(36)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521585,
+        "args": {
+            "line": "60",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/load.c:rb_construct_expanded_load_path(36)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521598,
+        "args": {
+            "line": "104",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/load.c:rb_get_expanded_load_path(35)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521598,
+        "args": {
+            "line": "151",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/load.c:search_required(34)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521606,
+        "args": {
+            "line": "1011",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/load.c:load_iseq_eval(37)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521607,
+        "args": {
+            "line": "630",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/ruby.c:rb_parser_load_file(38)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666521608,
+        "args": {
+            "line": "2364",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/ruby.c:rb_parser_load_file(38)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666587688,
+        "args": {
+            "line": "2368",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/iseq.c:rb_iseq_new_top(39)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666587707,
+        "args": {
+            "line": "832",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/iseq.c:rb_iseq_new_top(39)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666617182,
+        "args": {
+            "line": "845",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(40)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666617184,
+        "args": {
+            "line": "1452",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/node.c:rb_ast_dispose(40)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666618241,
+        "args": {
+            "line": "1454",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(41)",
+        "ph": "B",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666618242,
+        "args": {
+            "line": "2407",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/vm.c:rb_iseq_eval(41)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666618251,
+        "args": {
+            "line": "2412",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/load.c:load_iseq_eval(37)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666618251,
+        "args": {
+            "line": "644",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/load.c:require_internal(33)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666618260,
+        "args": {
+            "line": "1194",
+            "ractor": "1"
+        }
+    },
+    {
+        "name": "../ruby/load.c:rb_f_require(32)",
+        "ph": "E",
+        "pid": "44808",
+        "tid": "44808",
+        "ts": 9666618260,
+        "args": {
+            "line": "890",
+            "ractor": "1"
+        }
+    }
+]
