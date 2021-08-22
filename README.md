@@ -24,7 +24,7 @@ The profiling tool has 4 parts:
 - An event list to record runtime events
 - An event stack to simulate the native call stack and handle long jumps
 - An event serializer to generate the JSON file
-- A initializer and a cleaner to setup and finalize the whole process
+- An initializer and a cleaner to setup and finalize the whole process
 
 And there're a few difficulties to overcome:
 1. Minimize profiling overhead
@@ -109,6 +109,14 @@ Other than caching, we have larger goals:
 
 I've crafted a very simple version without iseq binary reordering but the benchmark can tell it does help. (See GitHub for the file format and how to benchmark: [DarkKowalski/Iseqc](https://github.com/darkkowalski/iseqc))
 
+I prepared 3 cases for the benchmark(See [cases](https://github.com/DarkKowalski/iseqc/blob/master/bench/gen_cases.rb)):
+
+- 10000 line `def` x 10
+- 10000 line `class` x 10
+- 1kb literal `String` x 10
+
+Run all cases 100 times and measure the performance with `Benchmark#bmbm`
+
 ```
                          user     system      total        real
 Kernel#require       0.001596   0.000000   0.001596 (  0.001600) baseline
@@ -152,4 +160,16 @@ I can support memory sharing later but need more time to find a way to optimize 
 
 And other features we could consider:
 - Support `require 'file', from: 'package'` in `Kernel` module
-- Support distinguish internal `require_relative` inside a package
+- Support distinguishing internal `require_relative` inside a package
+
+## Conclusion
+
+For this year Google Summer of Code, we tried to analyze and improve the overall performance of Ruby current loading mechanism `Kernel#require`.
+
+We made a new event-based profiling tool that helps us to know more runtime performance details of Ruby. And Ruby maintainers are going to merge it as a debugging/profiling facility.
+
+We had a try at `pre-compile -> link(possible to apply reordering and optimization) -> load with mmap` approach to improve the performance. The benchmark can tell it does help.
+
+For now it's not that clear how to apply link time optimization and reordering for YARV Instruction Sequence. But it's a nice idea and I'd like to spend more time on it after this GSoC.
+
+Thank Ruby community mentors, especially Koichi Sasada([ko1](https://github.com/ko1)) who helped me a lot. And thank Google for this great Summer of Code.
